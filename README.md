@@ -3,7 +3,7 @@
 
 ## Intro
 
-1. This challenge utilizes our newly gained knowledge of unsupervised machine learning. 
+1. This challenge utilizes newly gained knowledge of unsupervised machine learning. 
 2. Download the challenge 19 files and import the `crypto_market_data.csv`(found in the `Resources` folder). 
 3. Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 4. Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
