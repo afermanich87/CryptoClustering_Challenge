@@ -4,9 +4,10 @@
 ## Intro
 
 1. This challenge utilizes our newly gained knowledge of unsupervised machine learning. 
-2. Download the challenge 19 files and import the `crypto_market_data.csv`. Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
-3. Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-  The first five rows of the scaled DataFrame should appear as follows:
+2. Download the challenge 19 files and import the `crypto_market_data.csv`(found in the `Resources` folder). 
+3. Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
+4. Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+    * The first five rows of the scaled DataFrame should appear as follows:
   
 ![image](https://github.com/afermanich87/CryptoClustering_Challenge/assets/120151717/fda54894-19eb-4757-a3a8-180b55757188)
 
